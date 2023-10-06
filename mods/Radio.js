@@ -12,8 +12,8 @@ elements.Transmitter = {
 			doBurning(pixel)
 			doElectricity(pixel)
 
-    	let Output = pixelMap[pixel.x+1][pixel.y]
-    	let Input = pixelMap[pixel.x-1][pixel.y]
+    	let window.Output = pixelMap[pixel.x+1][pixel.y]
+    	let window.Input = pixelMap[pixel.x-1][pixel.y]
 
       
 	}
